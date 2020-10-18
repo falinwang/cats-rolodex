@@ -9,6 +9,11 @@ class App extends Component {
       monsters: [],
       searchField: "",
     };
+    this.handleChange = this.handleChange.bind(this); //resolve the scope problem
+  }
+
+  handleChange(e) {
+    this.setState({ searchField: e.target.value });
   }
 
   componentDidMount() {
@@ -23,21 +28,14 @@ class App extends Component {
 
   render() {
     const { monsters, searchField } = this.state;
-    const filteredMonster = monsters.filter((monster) =>
+    const filteredMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
 
     return (
       <div className="App">
-        <SearchBox
-          placeholder="Search cats"
-          handleChange={(e) =>
-            this.setState({ searchField: e.target.value }, () =>
-              console.log(this.state)
-            )
-          }
-        />
-        <CardList monsters={filteredMonster} />
+        <SearchBox placeholder="Search cats" handleChange={this.handleChange} />
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }
