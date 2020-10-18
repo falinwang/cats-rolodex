@@ -9,12 +9,11 @@ class App extends Component {
       monsters: [],
       searchField: "",
     };
-    this.handleChange = this.handleChange.bind(this); //resolve the scope problem
   }
 
-  handleChange(e) {
+  handleChange = (e) => {
     this.setState({ searchField: e.target.value });
-  }
+  };
 
   componentDidMount() {
     try {
