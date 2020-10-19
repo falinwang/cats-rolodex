@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cats-rolodex/static/css/main.1e117505.chunk.css",
+    "main.js": "/cats-rolodex/static/js/main.6e93646f.chunk.js",
+    "main.js.map": "/cats-rolodex/static/js/main.6e93646f.chunk.js.map",
+    "runtime-main.js": "/cats-rolodex/static/js/runtime-main.a7c11a12.js",
+    "runtime-main.js.map": "/cats-rolodex/static/js/runtime-main.a7c11a12.js.map",
+    "static/js/2.66c4e969.chunk.js": "/cats-rolodex/static/js/2.66c4e969.chunk.js",
+    "static/js/2.66c4e969.chunk.js.map": "/cats-rolodex/static/js/2.66c4e969.chunk.js.map",
+    "index.html": "/cats-rolodex/index.html",
+    "precache-manifest.f4d5df0aa2c10a38dce65bc26832e5ad.js": "/cats-rolodex/precache-manifest.f4d5df0aa2c10a38dce65bc26832e5ad.js",
+    "service-worker.js": "/cats-rolodex/service-worker.js",
+    "static/css/main.1e117505.chunk.css.map": "/cats-rolodex/static/css/main.1e117505.chunk.css.map",
+    "static/js/2.66c4e969.chunk.js.LICENSE.txt": "/cats-rolodex/static/js/2.66c4e969.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7c11a12.js",
+    "static/js/2.66c4e969.chunk.js",
+    "static/css/main.1e117505.chunk.css",
+    "static/js/main.6e93646f.chunk.js"
+  ]
+}
